@@ -28,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="David Karanja"
-                android:textScaleX="18sp"
+                android:textScaleX=""
                 android:textStyle="bold"/>
 
             <TextView
