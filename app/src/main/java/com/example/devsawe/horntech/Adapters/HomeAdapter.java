@@ -62,17 +62,17 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
 
     public class ViewHolder extends RecyclerView.ViewHolder{
 
-        ImageView item_image;
+        ImageView profile_photo,backgroung_img;
         TextView item_name,item_route,item_book;
 
         public ViewHolder(View itemView){
             super(itemView);
 
-            item_image = itemView.findViewById(R.id.item_image);
+            profile_photo = itemView.findViewById(R.id.profileImage);
 
-            item_name = itemView.findViewById(R.id.item_name);
+            backgroung_img = itemView.findViewById(R.id.cardBackGround);
             item_route = itemView.findViewById(R.id.item_route);
-            item_book = itemView.findViewById(R.id.item_book);
+            item_book = itemView.findViewById(R.id.btn_book);
         }
     }
 }
