@@ -32,10 +32,8 @@ public class Home extends AppCompatActivity {
 
         foodsList = new ArrayList<>();
 
-        foodsList.add(new HomeModel(R.drawable.driver2, "stanely Mbote", "Eldoret-Nakuru", "Book"));
-        foodsList.add(new HomeModel(R.drawable.driver2, "stanely Mbote", "Eldoret-Nakuru", "Book"));
-        foodsList.add(new HomeModel(R.drawable.driver2, "stanely Mbote", "Eldoret-Nakuru", "Book"));
-        foodsList.add(new HomeModel(R.drawable.driver2, "stanely Mbote", "Eldoret-Nakuru", "Book"));
+        foodsList.add(new HomeModel(R.drawable.car2, "Driver 1",R.drawable.driver1, "Book" ));
+
 
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
