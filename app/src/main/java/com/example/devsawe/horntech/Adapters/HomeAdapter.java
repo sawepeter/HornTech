@@ -38,20 +38,9 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, int position) {
 
-        HomeModel homeItem = mlist.get(position);
-
-        ImageView imageView = viewHolder.item_image;
-        TextView name,route,book;
-
-        name = viewHolder.item_name;
-        route = viewHolder.item_route;
-        book = viewHolder.item_book;
-
-        imageView.setImageResource(homeItem.getImage());
-
-        name.setText(homeItem.getName());
-        route.setText(homeItem.getRoute());
-        book.setText(homeItem.getBook());
+        viewHolder.backgroung_img.setImageResource(mlist.get(position).getBackground());
+        viewHolder.profile_photo.setImageResource(mlist.get(position).getProfilePhoto());
+        viewHolder.
 
     }
 
