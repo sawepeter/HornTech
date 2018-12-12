@@ -23,9 +23,13 @@
             android:layout_height="250dp">
 
             <ImageButton
+                android:background="@android:color/white"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
-                android:src="@drawable/collapsing"/>
+                android:src="@drawable/collapsing"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"/>
 
         </android.support.design.widget.CollapsingToolbarLayout>
 
