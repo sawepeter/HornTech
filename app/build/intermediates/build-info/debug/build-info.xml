@@ -6,7 +6,7 @@
     density="xhdpi"
     format="10"
     plugin-version="3.2.0"
-    timestamp="1544626853404"
+    timestamp="1544626915809"
     token="-9005047915676945330"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -70,7 +70,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1544626853404"
+        timestamp="1544626915809"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/devsawe/Documents/HornTech/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
