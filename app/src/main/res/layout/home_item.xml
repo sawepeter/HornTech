@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/btn_book"
         android:text="Book"
-        android:background="@drawable/driver3"
+        android:background="@drawable/btn_book_style"
         android:layout_marginBottom="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
