@@ -18,4 +18,24 @@ public class HomeModel {
         this.btnfollow = btnfollow;
         this.driverContact = driverContact;
     }
+
+    public int getBackground() {
+        return background;
+    }
+
+    public String getDriverName() {
+        return driverName;
+    }
+
+    public int getProfilePhoto() {
+        return profilePhoto;
+    }
+
+    public int getBtnfollow() {
+        return btnfollow;
+    }
+
+    public int getDriverContact() {
+        return driverContact;
+    }
 }
