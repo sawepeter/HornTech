@@ -19,7 +19,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
     private ArrayList<ModelFood> mlist;
 
     private Context mContext;
-    HomeAdapter(Context context, ArrayList<ModelFood> list){
+    public HomeAdapter(Context context, ArrayList<ModelFood> list){
         mContext = context;
         mlist = list;
     }

@@ -6,6 +6,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.widget.LinearLayout;
 
+import com.example.devsawe.horntech.Adapters.HomeAdapter;
 import com.example.devsawe.horntech.Model.ModelFood;
 
 import java.util.ArrayList;
@@ -34,6 +35,10 @@ public class Home extends AppCompatActivity {
         RecyclerView.LayoutManager rvLiLayoutManager = layoutManager;
 
         recyclerView.setLayoutManager(rvLiLayoutManager);
+
+        HomeAdapter adapter = new HomeAdapter(this,foodsList);
+
+        recyclerView.setAdapter(adapter);
 
 
     }
