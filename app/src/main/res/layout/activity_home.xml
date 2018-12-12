@@ -38,7 +38,10 @@
     <android.support.v4.widget.NestedScrollView
         android:layout_marginTop="250dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:clipToPadding="true"
+        app:layout_behaviour="@string/appbar_scrolling_view_behaviour">
+
         <android.support.v7.widget.RecyclerView
             android:id="@+id/rv"
             android:layout_width="match_parent"
