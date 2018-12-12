@@ -32,7 +32,12 @@ public class Home extends AppCompatActivity {
 
         foodsList = new ArrayList<>();
 
-        foodsList.add(new HomeModel(R.drawable.car2, "Driver 1",R.drawable.driver1, "Book" ));
+        foodsList.add(new HomeModel(R.drawable.car6,"Driver",R.drawable.driver1, "Book" ));
+        foodsList.add(new HomeModel(R.drawable.car2,"Driver",R.drawable.driver2, "Book" ));
+        foodsList.add(new HomeModel(R.drawable.car4,"Driver",R.drawable.driver3, "Book" ));
+        foodsList.add(new HomeModel(R.drawable.car3,"Driver",R.drawable.driver4, "Book" ));
+        foodsList.add(new HomeModel(R.drawable.car7,"Driver",R.drawable.driver5, "Book" ));
+        foodsList.add(new HomeModel(R.drawable.car8,"Driver",R.drawable.driver6, "Book" ));
 
 
 

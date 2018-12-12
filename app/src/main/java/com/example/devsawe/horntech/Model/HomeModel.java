@@ -5,13 +5,13 @@ public class HomeModel {
     int background;
     String driverName;
     int profilePhoto;
-    int btnfollow;
+    String btnfollow;
     int driverContact;
 
     public HomeModel() {
     }
 
-    public HomeModel(int background, String driverName, int profilePhoto, int btnfollow, int driverContact) {
+    public HomeModel(int background, String driverName, int profilePhoto, String btnfollow, int driverContact) {
         this.background = background;
         this.driverName = driverName;
         this.profilePhoto = profilePhoto;
@@ -31,7 +31,7 @@ public class HomeModel {
         return profilePhoto;
     }
 
-    public int getBtnfollow() {
+    public String getBtnfollow() {
         return btnfollow;
     }
 
@@ -51,7 +51,7 @@ public class HomeModel {
         this.profilePhoto = profilePhoto;
     }
 
-    public void setBtnfollow(int btnfollow) {
+    public void setBtnfollow(String btnfollow) {
         this.btnfollow = btnfollow;
     }
 
