@@ -9,17 +9,17 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.devsawe.horntech.Model.ModelFood;
+import com.example.devsawe.horntech.Model.HomeModel;
 import com.example.devsawe.horntech.R;
 
 import java.util.ArrayList;
 
 public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
 
-    private ArrayList<ModelFood> mlist;
+    private ArrayList<HomeModel> mlist;
 
     private Context mContext;
-    public HomeAdapter(Context context, ArrayList<ModelFood> list){
+    public HomeAdapter(Context context, ArrayList<HomeModel> list){
         mContext = context;
         mlist = list;
     }
@@ -38,7 +38,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, int position) {
 
-        ModelFood homeItem = mlist.get(position);
+        HomeModel homeItem = mlist.get(position);
 
         ImageView imageView = viewHolder.item_image;
         TextView name,route,book;
