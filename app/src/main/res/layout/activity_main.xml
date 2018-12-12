@@ -33,7 +33,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/logo"
-                    android:src="@drawable/quiz"/>
+                    android:src="@drawable/carpooling"/>
 
             </LinearLayout>
 
