@@ -11,4 +11,5 @@
     <color name="overlayActionBar">#0e0d0e</color>
 
     <color name="homebg">#ffffff</color>
+    <color name="homePrimary">#4fb053</color>
 </resources>
