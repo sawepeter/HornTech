@@ -5,6 +5,7 @@ INJECTED from /home/devsawe/Documents/HornTech/app/src/main/AndroidManifest.xml:
 INJECTED from /home/devsawe/Documents/HornTech/app/src/main/AndroidManifest.xml:2:1-24:12
 INJECTED from /home/devsawe/Documents/HornTech/app/src/main/AndroidManifest.xml:2:1-24:12
 MERGED from [com.android.support:design:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/03c00d71e9e054113a141716bd3f4efd/AndroidManifest.xml:17:1-24:12
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] /home/devsawe/.gradle/caches/transforms-1/files-1.1/library-2.1.4.aar/3bf1c5912ea670eecdebf68aa9315e4d/AndroidManifest.xml:2:1-10:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/62af00a0b1ec5bd3b31aabde7171715d/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/devsawe/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/dfa8992bf221c3f9ad0b6ba57116e74d/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:cardview-v7:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/a43fa84fe93755aeafe237af004bf74f/AndroidManifest.xml:17:1-22:12
@@ -13,7 +14,6 @@ MERGED from [com.android.support:support-fragment:28.0.0] /home/devsawe/.gradle/
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/4a1cce113fcb4c7c58f342adef740f01/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/5ca32115aed360dde25e9d245418d333/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/d5ae2765380ef2c262326a5a04e861db/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/80778d0d1c31d40df9cbfb98b909d2f1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:transition:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/8606f2257784d182bfb4714c30b66c44/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:loader:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/42bf8b357c3f623713f63c98888f3a7b/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:viewpager:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/18f01f871295732cb4bdd06f2000a330/AndroidManifest.xml:17:1-22:12
@@ -23,15 +23,16 @@ MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/devsawe/.gradle
 MERGED from [com.android.support:customview:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/ef2980adbb44dfb2fc3f473dcf60dc96/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/149578ff6f7668514ac54d8534ff0ee7/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/e7c90221b8f83c8b7a5f6a2cd9b47abc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/80778d0d1c31d40df9cbfb98b909d2f1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ee4e54a282133eef4a9134b4a7d00711/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/cfa2edf4b89dd6c7625d4eeab3dca23a/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/19d1a7ebccd6104b0d94c387f39b10fc/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/devsawe/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8967bd173bcc3d50394e0d921f234feb/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:documentfile:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/bb5b7bfd0a5f3befdc501f9d98b21882/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/de45d97a5c4974989bba8f4a22c3893e/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:print:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/878d21822f679c23c4e05be46279510b/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/devsawe/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/b8f2b566d88b48a0aec07b312678b7f9/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/c5769b52ff756a0c8807411354e504ef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/19d1a7ebccd6104b0d94c387f39b10fc/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/devsawe/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/093339d76f1c09f450a8d9c15b42c6bd/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/devsawe/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/ce1fa0ca9ce13517ccbe9d3510de4e9a/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /home/devsawe/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d1b1aac3a70677cc56b231fd48084486/AndroidManifest.xml:17:1-22:12
@@ -90,14 +91,14 @@ category#android.intent.category.LAUNCHER
 ADDED from /home/devsawe/Documents/HornTech/app/src/main/AndroidManifest.xml:16:17-77
 	android:name
 		ADDED from /home/devsawe/Documents/HornTech/app/src/main/AndroidManifest.xml:16:27-74
-activity#com.example.devsawe.horntech.SignIn
-ADDED from /home/devsawe/Documents/HornTech/app/src/main/AndroidManifest.xml:19:9-44
+activity#com.example.devsawe.horntech.auth.SignIn
+ADDED from /home/devsawe/Documents/HornTech/app/src/main/AndroidManifest.xml:19:9-49
 	android:name
-		ADDED from /home/devsawe/Documents/HornTech/app/src/main/AndroidManifest.xml:19:19-41
-activity#com.example.devsawe.horntech.SignUp
-ADDED from /home/devsawe/Documents/HornTech/app/src/main/AndroidManifest.xml:20:9-44
+		ADDED from /home/devsawe/Documents/HornTech/app/src/main/AndroidManifest.xml:19:19-46
+activity#com.example.devsawe.horntech.auth.SignUp
+ADDED from /home/devsawe/Documents/HornTech/app/src/main/AndroidManifest.xml:20:9-49
 	android:name
-		ADDED from /home/devsawe/Documents/HornTech/app/src/main/AndroidManifest.xml:20:19-41
+		ADDED from /home/devsawe/Documents/HornTech/app/src/main/AndroidManifest.xml:20:19-46
 activity#com.example.devsawe.horntech.Home
 ADDED from /home/devsawe/Documents/HornTech/app/src/main/AndroidManifest.xml:21:9-51
 	android:name
@@ -108,6 +109,8 @@ INJECTED from /home/devsawe/Documents/HornTech/app/src/main/AndroidManifest.xml
 INJECTED from /home/devsawe/Documents/HornTech/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support:design:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/03c00d71e9e054113a141716bd3f4efd/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/03c00d71e9e054113a141716bd3f4efd/AndroidManifest.xml:20:5-44
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] /home/devsawe/.gradle/caches/transforms-1/files-1.1/library-2.1.4.aar/3bf1c5912ea670eecdebf68aa9315e4d/AndroidManifest.xml:6:5-8:41
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] /home/devsawe/.gradle/caches/transforms-1/files-1.1/library-2.1.4.aar/3bf1c5912ea670eecdebf68aa9315e4d/AndroidManifest.xml:6:5-8:41
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/62af00a0b1ec5bd3b31aabde7171715d/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/62af00a0b1ec5bd3b31aabde7171715d/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/devsawe/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/dfa8992bf221c3f9ad0b6ba57116e74d/AndroidManifest.xml:5:5-7:41
@@ -124,8 +127,6 @@ MERGED from [com.android.support:support-core-ui:28.0.0] /home/devsawe/.gradle/c
 MERGED from [com.android.support:support-core-ui:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/5ca32115aed360dde25e9d245418d333/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/d5ae2765380ef2c262326a5a04e861db/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/d5ae2765380ef2c262326a5a04e861db/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/80778d0d1c31d40df9cbfb98b909d2f1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/80778d0d1c31d40df9cbfb98b909d2f1/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/8606f2257784d182bfb4714c30b66c44/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/8606f2257784d182bfb4714c30b66c44/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:loader:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/42bf8b357c3f623713f63c98888f3a7b/AndroidManifest.xml:20:5-44
@@ -144,12 +145,12 @@ MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/devsawe/.gradl
 MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/149578ff6f7668514ac54d8534ff0ee7/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/e7c90221b8f83c8b7a5f6a2cd9b47abc/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/e7c90221b8f83c8b7a5f6a2cd9b47abc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/80778d0d1c31d40df9cbfb98b909d2f1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/80778d0d1c31d40df9cbfb98b909d2f1/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ee4e54a282133eef4a9134b4a7d00711/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/ee4e54a282133eef4a9134b4a7d00711/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/cfa2edf4b89dd6c7625d4eeab3dca23a/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/cfa2edf4b89dd6c7625d4eeab3dca23a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/19d1a7ebccd6104b0d94c387f39b10fc/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/19d1a7ebccd6104b0d94c387f39b10fc/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/devsawe/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8967bd173bcc3d50394e0d921f234feb/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/devsawe/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8967bd173bcc3d50394e0d921f234feb/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:documentfile:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/bb5b7bfd0a5f3befdc501f9d98b21882/AndroidManifest.xml:20:5-44
@@ -162,6 +163,8 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/devsawe/.gradle/cache
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/devsawe/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/b8f2b566d88b48a0aec07b312678b7f9/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:interpolator:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/c5769b52ff756a0c8807411354e504ef/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:interpolator:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/c5769b52ff756a0c8807411354e504ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/19d1a7ebccd6104b0d94c387f39b10fc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/devsawe/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/19d1a7ebccd6104b0d94c387f39b10fc/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/devsawe/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/093339d76f1c09f450a8d9c15b42c6bd/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/devsawe/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/093339d76f1c09f450a8d9c15b42c6bd/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/devsawe/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/ce1fa0ca9ce13517ccbe9d3510de4e9a/AndroidManifest.xml:20:5-44

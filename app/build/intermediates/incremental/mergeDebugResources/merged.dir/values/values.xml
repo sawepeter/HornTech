@@ -1386,6 +1386,7 @@
     </attr><attr format="color" name="iconTint"/><attr name="iconTintMode"/><attr name="strokeColor"/><attr name="strokeWidth"/><attr format="dimension" name="cornerRadius"/><attr name="rippleColor"/></declare-styleable>
     <declare-styleable name="MaterialCardView"><attr name="strokeColor"/><attr name="strokeWidth"/></declare-styleable>
     <declare-styleable name="MaterialComponentsTheme"><attr name="colorAccent"/><attr name="colorPrimary"/><attr name="colorPrimaryDark"/><attr name="colorSecondary"/><attr name="scrimBackground"/><attr name="colorBackgroundFloating"/><attr name="bottomSheetDialogTheme"/><attr name="bottomSheetStyle"/><attr name="materialButtonStyle"/><attr name="chipGroupStyle"/><attr name="chipStyle"/><attr name="chipStandaloneStyle"/><attr name="editTextStyle"/><attr name="floatingActionButtonStyle"/><attr name="materialCardViewStyle"/><attr name="navigationViewStyle"/><attr name="tabStyle"/><attr name="textInputStyle"/><attr name="snackbarButtonStyle"/><attr name="textAppearanceHeadline1"/><attr name="textAppearanceHeadline2"/><attr name="textAppearanceHeadline3"/><attr name="textAppearanceHeadline4"/><attr name="textAppearanceHeadline5"/><attr name="textAppearanceHeadline6"/><attr name="textAppearanceSubtitle1"/><attr name="textAppearanceSubtitle2"/><attr name="textAppearanceBody1"/><attr name="textAppearanceBody2"/><attr name="textAppearanceCaption"/><attr name="textAppearanceButton"/><attr name="textAppearanceOverline"/></declare-styleable>
+    <declare-styleable name="MaterialEditText"><attr format="color" name="met_baseColor"/><attr format="color" name="met_primaryColor"/><attr name="met_floatingLabel"><enum name="none" value="0"/><enum name="normal" value="1"/><enum name="highlight" value="2"/></attr><attr format="color" name="met_errorColor"/><attr format="integer" name="met_minCharacters"/><attr format="integer" name="met_maxCharacters"/><attr format="boolean" name="met_singleLineEllipsis"/><attr format="integer" name="met_minBottomTextLines"/><attr format="string" name="met_helperText"/><attr format="color" name="met_helperTextColor"/><attr format="string" name="met_accentTypeface"/><attr format="string" name="met_typeface"/><attr format="string" name="met_floatingLabelText"/><attr format="dimension" name="met_floatingLabelPadding"/><attr format="boolean" name="met_hideUnderline"/><attr format="color" name="met_underlineColor"/><attr format="boolean" name="met_autoValidate"/><attr format="reference" name="met_iconLeft"/><attr format="reference" name="met_iconRight"/><attr format="dimension" name="met_iconPadding"/><attr format="boolean" name="met_clearButton"/><attr format="dimension" name="met_floatingLabelTextSize"/><attr format="color" name="met_floatingLabelTextColor"/><attr format="dimension" name="met_bottomTextSize"/><attr format="boolean" name="met_floatingLabelAlwaysShown"/><attr format="boolean" name="met_helperTextAlwaysShown"/><attr format="boolean" name="met_floatingLabelAnimating"/><attr format="color" name="met_textColor"/><attr format="color" name="met_textColorHint"/><attr format="boolean" name="met_validateOnFocusLost"/><attr format="boolean" name="met_checkCharactersCountAtBeginning"/></declare-styleable>
     <declare-styleable name="MenuGroup">
 
         <!-- The ID of the group. -->
@@ -2019,6 +2020,8 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+    <dimen name="bottom_ellipsis_height">4dp</dimen>
+    <dimen name="bottom_text_size">12sp</dimen>
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
@@ -2029,6 +2032,8 @@
     <dimen name="compat_control_corner_material">2dp</dimen>
     <dimen name="compat_notification_large_icon_max_height">320dp</dimen>
     <dimen name="compat_notification_large_icon_max_width">320dp</dimen>
+    <dimen name="default_padding_bottom">8dp</dimen>
+    <dimen name="default_padding_top">8dp</dimen>
     <dimen name="design_appbar_elevation">4dp</dimen>
     <dimen name="design_bottom_navigation_active_item_max_width">168dp</dimen>
     <dimen name="design_bottom_navigation_active_item_min_width">96dp</dimen>
@@ -2078,6 +2083,7 @@
     <dimen name="fastscroll_default_thickness">8dp</dimen>
     <dimen name="fastscroll_margin">0dp</dimen>
     <dimen name="fastscroll_minimum_range">50dp</dimen>
+    <dimen name="floating_label_text_size">12sp</dimen>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
@@ -2085,6 +2091,9 @@
     <item format="float" name="hint_alpha_material_light" type="dimen">0.38</item>
     <item format="float" name="hint_pressed_alpha_material_dark" type="dimen">0.70</item>
     <item format="float" name="hint_pressed_alpha_material_light" type="dimen">0.54</item>
+    <dimen name="inner_components_spacing">8dp</dimen>
+    <dimen name="inner_padding_left">0dp</dimen>
+    <dimen name="inner_padding_right">0dp</dimen>
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
