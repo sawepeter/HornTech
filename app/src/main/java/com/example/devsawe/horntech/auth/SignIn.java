@@ -11,7 +11,7 @@ import com.example.devsawe.horntech.R;
 
 public class SignIn extends AppCompatActivity {
 
-    Button btnsignin;
+    Button homebtn;
 
 
     @Override
@@ -19,9 +19,9 @@ public class SignIn extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in);
 
-        btnsignin = findViewById(R.id.btn_sign_in);
+        homebtn = findViewById(R.id.btn_sign_in);
 
-        btnsignin.setOnClickListener(new View.OnClickListener() {
+        homebtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SignIn.this, Home.class);
