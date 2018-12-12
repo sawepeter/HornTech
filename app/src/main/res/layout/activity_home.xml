@@ -16,6 +16,9 @@
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:layout_width="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleTextAppearance="@android:color/transparent"
             android:layout_height="250dp">
 
         </android.support.design.widget.CollapsingToolbarLayout>
