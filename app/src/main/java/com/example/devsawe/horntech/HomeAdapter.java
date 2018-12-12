@@ -9,11 +9,16 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
 public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
 
+    private ArrayList<ModelFood> mlist;
+
     private Context mContext;
-    HomeAdapter(Context context){
+    HomeAdapter(Context context, ArrayList<ModelFood> list){
         mContext = context;
+        mlist = list;
     }
     @NonNull
     @Override
@@ -28,7 +33,14 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
+    public void onBindViewHolder(@NonNull ViewHolder viewHolder, int position) {
+
+        ImageView imageView = viewHolder.item_image;
+        TextView name,route,book;
+
+        name = viewHolder.item_name;
+        route = viewHolder.item_route;
+        book = viewHolder.item_book;
 
     }
 
@@ -40,10 +52,16 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
     public class ViewHolder extends RecyclerView.ViewHolder{
 
         ImageView item_image;
-        TextView item_name,item_place, item_price;
+        TextView item_name,item_route,item_book;
 
         public ViewHolder(View itemView){
             super(itemView);
+
+            item_image = itemView.findViewById(R.id.item_image);
+
+            item_name = itemView.findViewById(R.id.item_name);
+            item_route = itemView.findViewById(R.id.item_route);
+            item_book = itemView.findViewById(R.id.item_book);
         }
     }
 }
