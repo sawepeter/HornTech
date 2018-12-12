@@ -38,4 +38,24 @@ public class HomeModel {
     public int getDriverContact() {
         return driverContact;
     }
+
+    public void setBackground(int background) {
+        this.background = background;
+    }
+
+    public void setDriverName(String driverName) {
+        this.driverName = driverName;
+    }
+
+    public void setProfilePhoto(int profilePhoto) {
+        this.profilePhoto = profilePhoto;
+    }
+
+    public void setBtnfollow(int btnfollow) {
+        this.btnfollow = btnfollow;
+    }
+
+    public void setDriverContact(int driverContact) {
+        this.driverContact = driverContact;
+    }
 }

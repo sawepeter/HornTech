@@ -17,8 +17,8 @@ import java.util.ArrayList;
 public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
 
     private ArrayList<HomeModel> mlist;
-
     private Context mContext;
+
     public HomeAdapter(Context context, ArrayList<HomeModel> list){
         mContext = context;
         mlist = list;
