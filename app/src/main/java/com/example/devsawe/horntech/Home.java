@@ -28,10 +28,7 @@ public class Home extends AppCompatActivity {
         window.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
 
         //SET UP THE RECYCLERVIEW WITH ADAPTER
-
-
-
-        recyclerView = findViewById(R.id.rv);
+        recyclerView = findViewById(R.id.recyclerView);
 
         foodsList = new ArrayList<>();
 
