@@ -24,6 +24,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.devsawe.horntech.SignIn" />
+        <activity android:name="com.example.devsawe.horntech.SignUp" />
+        <activity android:name="com.example.devsawe.horntech.Home" />
     </application>
 
 </manifest>
