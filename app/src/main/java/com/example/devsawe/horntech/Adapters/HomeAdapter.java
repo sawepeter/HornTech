@@ -63,7 +63,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
     public class ViewHolder extends RecyclerView.ViewHolder{
 
         ImageView profile_photo,backgroung_img;
-        TextView item_name,item_route,item_book;
+        TextView DriverContact,DriverName,item_book;
 
         public ViewHolder(View itemView){
             super(itemView);
@@ -71,8 +71,9 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
             profile_photo = itemView.findViewById(R.id.profileImage);
 
             backgroung_img = itemView.findViewById(R.id.cardBackGround);
-            item_route = itemView.findViewById(R.id.item_route);
+            DriverName = itemView.findViewById(R.id.Driver_Name);
             item_book = itemView.findViewById(R.id.btn_book);
+            DriverContact = itemView.findViewById(R.id.Driver_Contact);
         }
     }
 }
