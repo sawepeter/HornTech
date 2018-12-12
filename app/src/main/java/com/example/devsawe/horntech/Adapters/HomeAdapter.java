@@ -1,4 +1,4 @@
-package com.example.devsawe.horntech;
+package com.example.devsawe.horntech.Adapters;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.devsawe.horntech.Model.ModelFood;
+import com.example.devsawe.horntech.R;
 
 import java.util.ArrayList;
 
@@ -46,7 +47,11 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
         route = viewHolder.item_route;
         book = viewHolder.item_book;
 
-        imageView.setImageResource();
+        imageView.setImageResource(homeItem.getImage());
+
+        name.setText(homeItem.getName());
+        route.setText(homeItem.getRoute());
+        book.setText(homeItem.getBook());
 
     }
 
