@@ -1696,10 +1696,6 @@
         "source": "/home/devsawe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/62af00a0b1ec5bd3b31aabde7171715d/res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/devsawe/Documents/HornTech/app/build/intermediates/res/merged/debug/layout_capsule.xml.flat",
-        "source": "/home/devsawe/Documents/HornTech/app/src/main/res/layout/capsule.xml"
-    },
-    {
         "merged": "/home/devsawe/Documents/HornTech/app/build/intermediates/res/merged/debug/layout_abc_action_bar_title_item.xml.flat",
         "source": "/home/devsawe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/62af00a0b1ec5bd3b31aabde7171715d/res/layout/abc_action_bar_title_item.xml"
     },
