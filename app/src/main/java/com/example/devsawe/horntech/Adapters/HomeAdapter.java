@@ -40,7 +40,9 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
 
         viewHolder.backgroung_img.setImageResource(mlist.get(position).getBackground());
         viewHolder.profile_photo.setImageResource(mlist.get(position).getProfilePhoto());
-        viewHolder.
+        viewHolder.item_book.setText(mlist.get(position).getBtnfollow());
+        viewHolder.DriverName.setText(mlist.get(position).getDriverName());
+        viewHolder.DriverContact.setText(mlist.get(position).getDriverContact());
 
     }
 
