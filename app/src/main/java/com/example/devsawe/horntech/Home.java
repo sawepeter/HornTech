@@ -24,7 +24,11 @@ public class Home extends AppCompatActivity {
 
         foodsList = new ArrayList<>();
 
+        foodsList.add(new ModelFood(R.drawable.driver2, name:"stanely Mbote", "Eldoret-Nakuru", "Book"));
         foodsList.add(new ModelFood(R.drawable.driver2, "stanely Mbote", "Eldoret-Nakuru", "Book"));
+        foodsList.add(new ModelFood(R.drawable.driver2, "stanely Mbote", "Eldoret-Nakuru", "Book"));
+        foodsList.add(new ModelFood(R.drawable.driver2, "stanely Mbote", "Eldoret-Nakuru", "Book"));
+
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         RecyclerView.LayoutManager rvLiLayoutManager = layoutManager;
