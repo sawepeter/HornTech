@@ -22,7 +22,7 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
 
         ViewHolder viewHolder = new ViewHolder(view);
 
-        return null;
+        return viewHolder;
     }
 
     @Override
