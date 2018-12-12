@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.devsawe.horntech.Model.ModelFood;
+
 import java.util.ArrayList;
 
 public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
@@ -35,6 +37,8 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, int position) {
 
+        ModelFood homeItem = mlist.get(position);
+
         ImageView imageView = viewHolder.item_image;
         TextView name,route,book;
 
@@ -42,11 +46,13 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
         route = viewHolder.item_route;
         book = viewHolder.item_book;
 
+        imageView.setImageResource();
+
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return mlist.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{
